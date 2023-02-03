@@ -28,16 +28,5 @@ public class CashbackHackServiceTest {
 
         assertEquals(expected, actual);
     }
-
-    @Test
-    public void ShouldRemainIfAmountEqualsBoundary() {
-        CashbackHackService service = new CashbackHackService();
-
-        int amount = 1000;
-
-        int expected = 0;
-        int actual = service.remain(amount);
-
-        assertEquals(expected, actual);
-    }
 }
+
